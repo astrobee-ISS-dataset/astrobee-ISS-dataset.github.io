@@ -82,6 +82,7 @@ body {
     padding-right: 0px;
     width: 100%;
 }
+
 /* 
 .author-row {
     height: 25px;
@@ -183,16 +184,6 @@ ul.authors.affiliations li {
     font-size: 10px;
 }
 
-#uc-berkeley {
-    padding-top: 10px;
-    font-family: 'Open Sans',sans-serif;
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0px;
-    letter-spacing: 0;
-}
-
 #equal-contrib {
     padding-top: 10px;
     font-family: 'Open Sans',sans-serif;
@@ -203,8 +194,14 @@ ul.authors.affiliations li {
 }
 
 .icon-col {
-    width: 50%;
+    width: 33.33333%;
 }
+
+.base-col.icon-col {}
+
+.base-col.icon-col {}
+
+.base-col.icon-col {}
 
 .icon-img {
     max-width: 25%;

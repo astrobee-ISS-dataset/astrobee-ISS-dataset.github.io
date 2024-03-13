@@ -204,7 +204,7 @@ ul.authors.affiliations li {
 .base-col.icon-col {}
 
 .icon-img {
-    max-width: 25%;
+    max-width: 40%;
     margin-right: auto;
     margin-bottom: 1px;
     margin-left: auto;
@@ -219,7 +219,7 @@ ul.authors.affiliations li {
 }
 
 .data-img-icon {
-    max-width: 25%;
+    max-width: 30%;
     margin-top: 5px;
     margin-bottom: 9px;
     opacity: .62;

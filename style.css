@@ -305,6 +305,7 @@ ul.authors.affiliations li {
     margin-left: 2%;
     margin-right: 2%;
 }
+
 #splash-img {
     width: 100%;
     max-width: 800px;
@@ -694,6 +695,23 @@ input:checked + .slider:before {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 3px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the space between images */
+}
+
+.image-item {
+    text-align: center; /* Center-align the image names */
+}
+
+.image-item img {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a max-width for the images */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.8; 
 }
 
 @media screen and (max-width: 550px) {
